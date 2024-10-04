@@ -169,7 +169,7 @@ ask:
 
 ; Subrutina para finalizar el programa
 fin_programa:
-    ld hl,txt_salida      ; Carga la dirección del texto "SE HA TERMINADO EL PROGRAMA.$" en HL
+    ld hl,txt_salida      ; Carga la dirección del texto "Fin del programa.$" en HL
     call most_txt          ; Muestra el texto en el LCD
     halt                  ; Detiene la ejecución del programa
 
