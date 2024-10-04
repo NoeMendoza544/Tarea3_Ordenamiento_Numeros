@@ -178,7 +178,7 @@ fin_programa:
 ;-------
 
     .org 2000h            ; Define el origen de los datos en la dirección 2000h
-    txtin .db "GENERAR NUMEROS:$"                           ; Texto inicial para generar números
+    txtin .db "Generar numeros randoms:$"                           ; Texto inicial para generar números
     ord_txt .db "Como desea Ordenarlos Ascendente o Descendente?$"          ; Texto para solicitar ordenamiento
     preg_txt .db "Repetir programa (Y) o Salir (N)?$"         ; Texto para preguntar al usuario
     txt_salida .db "Fin del Programa.$"           ; Texto de salida al finalizar
